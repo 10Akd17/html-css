@@ -1,0 +1,31 @@
+/*Attention les commentaire ne s'ecrivent pas de la meme maniere qu'en HTML*/
+/* LES DEVELOPPEURS ON POUR HABITUDE D'UTLISER UN RESET QUI UNIFORMISERA LA MISE EN PAGE CROSS NAVIGATEUR*/
+/* PRENEZ L'HABITUDE DE TESTER VOTRE FICHIER DE STYLE EN METANT UN BACKGROUND-COLOR: RED SUR VOTRE BODY*/
+
+selecteur{
+    propriété: valeur; /*le ; est necessare au fonctionnelent du code*/
+
+}
+
+.class{ /* Permet de donner un nom a plusieur balises*/
+    propriété: valeur; /* on peut mettre plusieurs nistructions a la suite*/
+    propriété: valeur;
+    propriété: valeur;
+}
+#id{ /* Identifiant uniaue, on ne donne se nom qu'a une balise, sert aussi pour faire un ancre*/
+    propriété: valeur;
+}
+
+.class, #id, balises{
+    propriété: valeur;
+}
+
+.class1 .class2 .class3{ /*ici on parle de la class3 qui est dans la class2 lui est dans la class*/
+    propriété: valeur;
+}
+
+body{
+    background-color: rgb(0, 247, 255);
+}
+
+
