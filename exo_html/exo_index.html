@@ -10,16 +10,18 @@
     <meta name="keywords" content="HTML, page HTML, bases HTML/CSS"><!-- Les mots clef en rapport avec la recherche qui fera le visiteur,
      a perdu de son importance-->
      <!-- Police importer de GOOGLE FONT-->
-     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Saira+Condensed&family=Staatliches&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="index.css">
 <body>
+    <section>
     <header>
         <H1> <strong>Exo 01</strong> </H1>
         <p>Bonjour, <strong>jouyeux Halloween </strong> on attend avec impatience ce : <em> Week-end de 3 jours !</em> </p>
 
         <hr>
+    </section>
     </header>
     <main>
+        <section>
         <h1> <strong>Exo 02</strong> </h1>
         <h3> <strong>Mon repas de Noël</strong> </h3>
         <p>J’ai eu la chance d’avoir un repas de Noël <em>excellent</em> , puisqu’il était composé des plats suivants :</p>
@@ -33,10 +35,10 @@
         <p>Apres j'ai pu déballer tout mes cadeaux :</p>
         <ol><li>Mami Lulu : des <strong>DVD</strong></li>
         <li>Mami Elisabeth : des  <em>CD</em> </li>
-        <li>Tonton Hugues : des  <em> <strong>livres</strong></em> </li>
+        <li>Tonton Hugues : des  <em><strong>livres</strong></em></li>
     </ol>
         <hr>
-
+</section>
         <h1> <strong>Exo 03</strong> </h1>
         <ol>
             <li> <u> HTML: HyperText Markup Language</u></li>
@@ -47,13 +49,13 @@
             <ul><li>Eléments : ils définissent la structure et le contenu des objets au sein d'une page. 
                 <br> Les plus couramment utilisés sont les niveaux de titre (h1 à h6) et les paragraphes
                 <br> (avec la balise p)</li></ul>
-                <ul><li>○	Balises : elles sont reconnaissables car elles sont encadrées d'un chevron ouvrant 
+                <ul><li>Balises : elles sont reconnaissables car elles sont encadrées d'un chevron ouvrant 
                     <br> et d'un chevron fermant. L'ouverture d'une balise détermine le début d'un élément. 
                     <br> Sa fermeture détermine sa fin. Le contenu qui est inséré entre une balise ouvrante 
                     <br> et fermante représente le contenu de cet élément. Par exemple, un lien html sera 
                     <br> encadré d'une balise A ouvrante et fermante. Il existe aussi des balises auto-
                     <br>fermantes (aussi dites orphelines).</li></ul>
-                    <ul><li>○	Attributs : ce sont des propriétés utilisées pour fournir des informations 
+                    <ul><li>Attributs : ce sont des propriétés utilisées pour fournir des informations 
                         <br> complémentaires sur un élément. Les attributs les plus communs incluent l'attribut 
                         <br> ID (qui identifie un élément), l'attribut CLASS (qui classifie un élément), l'attribut 
                         <br> SRC (qui spécifie la source d'un contenu qui peut être imbriqué) et l'attribut HREF 
@@ -77,6 +79,51 @@
                                 &lt;/html>
 
                             </pre>
+                    
+                            <ul><li><strong>!DOCTYPE html</strong>  informe le navigateur web que le document est de type html et 
+                                <br> qu'il s'agit (ici) de la dernière version du langage, le HTML 5. En HTML 4.01, la 
+                                <br> précédente version avant le 5, cette balise s’écrivait &lt;!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 4.01 Frameset//EN", 
+                                <br> "http://www.w3.org/TR/html4/frameset.dtd"></li></ul>
+                                <ul><li>à l'intérieur de l'élément <em>html</em>  la balise <strong>head </strong> identifie le début du document et inclut 
+                                    <br> les métadonnées (informations sur la page). Le contenu à l'intérieur de la balise 
+                                    <br> head n'est pas affiché par le navigateur puisqu'il donne des informations sur la 
+                                    <br> page (liens vers des fichiers externes, utilisation du langage html, titre de la page).</li></ul>
+                                    <ul><li>tout ce qui s'affichera dans le navigateur est inclus à l'intérieur de la balise <strong>body</strong> .</li></ul>
+                                    <ul><li>○	quand un élément est placé au sein d'un autre (ou imbriqué) il est important 
+                                        <br> d' <strong>indenter</strong>  cet élément en le décalant vers la droite à l'aide de la tabulation pour 
+                                        <br> conserver une structure bien organisée et lisible pour tout le monde.</li></ul>
+                                        <ul><li>les balises en paires comportent une balise ouvrante et une balise fermante 
+                                            <br> indiquant pour chacune le début et la fin de l'élément correspondant.</li></ul>
+                                            <ul><li>les balises auto-fermantes correspondent à des éléments ponctuels dans une page 
+                                                <br> html, pas besoin de fournir une information de fin (insérer une image ou un lien par 
+                                                <br> exemple). Les plus courantes :</li></ul>
+                                                <pre>
+ &lt;br />
+ &lt;img />
+ &lt;meta />
+ &lt;input />
+ &lt;hr />
+ &lt;link />
+                                        </pre>
+                                        5.	Le W3C - La validation du code <br>
+<strong>Le World Wide Web Consortium</strong>, abrégé par le sigle <strong> W3C</strong>, est un organisme de 
+<br> standardisation à but non lucratif, fondé en octobre 1994 chargé de promouvoir la compatibilité 
+<br> des technologies du <a href="https://www.worldwideweb.com">World Wide Web</a>  telles que <a href="htpps://www.html5.com">HTML5</a> , <a href="htpps://www.html.com">HTML</a> , <a href="htpps://www.css.com">CSS</a> , <a href="htpps://www.png.com">PNG</a>, <a href="htpps://www.svg.com">SVG</a> … Le 
+<br> <a href="htpps://www.worldwideweb.com"> W3C ou World Wide Web Consortium</a>, est un organisme international qui développe des 
+<br> <a href="htpps://www.standards.com">standards</a>  pour le Web afin que les gens puissent communiquer efficacement à travers Internet, 
+<br> autour de formats ouverts garantissant une meilleure 
+<br> interopérabilité (c'est-à-dire une meilleure compréhension des systèmes hétérogènes à travers des données et langages standardisés). 
+<br> Le consortium existe depuis 1994 et est dirigé par l'inventeur du Web, Tim Berners-Lee. 
+composé d'une équipe fixe et des membres (dont plusieurs centaines d'entreprises 
+<br> partenaires). Les membres délèguent des ingénieurs au sein du W3C et participent ainsi à 
+<br> l'élaboration des spécifications techniques pour les technologies du Web. De nombreux 
+<br> membres actifs font partie des équipes de développement des navigateurs (Microsoft, Mozilla, 
+<br> Apple, Opera, Google, etc).<br>
+<br>
+<br><br><br><p>Lepoles - Exos HTML débutant</p>
+
+                    
+
         </ol>
     </main>
     
