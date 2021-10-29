@@ -1,0 +1,13 @@
+h1, h2, div, a, p, span, section{
+    text-align: center;
+    border: 1px solid cadetblue;
+    background-image: url(/img/karnagif.gif);
+
+}
+
+.block{
+    display: block; /* On mdofie l'affichage de la balisepour qu'elle devienne de type inline*/
+}
+.inline{
+    display: inline; /* On mdofie l'affichage de la balisepour qu'elle devienne de type inline*/
+}

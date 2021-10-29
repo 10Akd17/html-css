@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+#conteneur{
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+    border: 2px solid rgb(101, 133, 120); /*On peut ecrire les exadecimaux avec 3 caracteres si ils sont touts identique*/
+    background-color: cadetblue;
+}
+
+header, footer{
+    
+    height: 80px;
+    background-color: darkcyan;
+    color: white;
+    background: rgb(198,248,203);
+    background: -moz-radial-gradient(circle, rgba(198,248,203,0.5215219877013305) 16%, rgba(159,234,183,1) 61%, rgba(42,89,104,1) 96%);
+    background: -webkit-radial-gradient(circle, rgba(198,248,203,0.5215219877013305) 16%, rgba(159,234,183,1) 61%, rgba(42,89,104,1) 96%);
+    background: radial-gradient(circle, rgba(198,248,203,0.5215219877013305) 16%, rgba(159,234,183,1) 61%, rgba(42,89,104,1) 96%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c6f8cb",endColorstr="#2a5968",GradientType=1); 
+}
+nav{
+    height: 40px;
+    color: black;
+    padding-left: 20px;
+    padding-top: 6px;background: rgb(131,131,131);
+    background: linear-gradient(90deg, rgb(44, 70, 77) 4%, rgba(94,179,144,1) 63%, rgba(55,95,117,0.26684177088804273) 100%);
+}
+section{
+   /* background-color: rgb(102, 153, 136);*/
+    border: 20px solid rgb(50, 93, 99);
+    height: 500px;
+    text-align: center;
+    background: rgb(67, 109, 114);
+
+}
+
+p{
+    margin: 0;
+
+}

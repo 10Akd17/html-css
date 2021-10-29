@@ -1,0 +1,22 @@
+body{
+    margin: 0;/* en haut, a droite, en bas et a gauche*/
+}
+.boite{
+    height: 10vh; /* vh = viewport height */
+    width: 11vw; /*vw = viewport width */
+    padding: 5vh;
+    background-image: url(../img/karnagif.gif);
+    background-size: cover; /*etire l'image pour quelle rentre dans la balise*/ 
+    border: 5px double lightseagreen;
+    margin: 2vh;
+    float: left; /*effet flottant ca sort les elements du flux naturel de la page les places les uns a coté des autres*/
+    transition: margin 0.5s;
+
+}
+.boite:hover{/*pseudo-class qui applique un effet au surval de la souris*/
+    margin-top: 10vh;
+
+}
+.clear{
+    clear: both; /*supprime l'effet flottant des deux coté*/
+}
